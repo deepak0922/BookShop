@@ -1,0 +1,44 @@
+<html>
+<head><title>Infibeam-Online Bookstore  Buy Books Online at Best Price in India</title></head>
+<body bgcolor=silver>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<img src="C:\Users\Deepak\Pictures\infibeam_logo.png" border=2 width="300">
+</br></br><table bordersize=2><tr><td><input type="text" name="search" value="search your books..."><input type="submit"name="submit"value="Search"></td></tr></table>
+   <!-- Navigation -->
+<nav>
+  <ul class="div">
+    <li><a href="javascript:void(0)">Home</a></li>
+    <li><a href="secondpage.html">Books</a></li>
+    <li><a href="javascript:void(0)">Contact Us</a></li>
+    <li><a href="javascript:void(0)">About Us</a></li>
+  </ul>
+</nav> 
+<section>
+  <img class="mySlides" src="C:\Users\Deepak\Pictures\58703b55b8b42_1810carousalbanner4.png.999xx.png" style="width:100%">
+  <img class="mySlides" src="C:\Users\Deepak\Pictures\62ead2dc9d1fb_cr18173.png.999xx.png" style="width:100%">
+  <img class="mySlides" src="C:\Users\Deepak\Pictures\4991694019717_1788carousalbanner1.png.999xx.png" style="width:100%">
+<img class="mySlides" src="F:\New website project\b3a14b98fb281_1707carousalbanner11.png.999xx.png" style="width:100%">
+</section>
+<script type="text/javascript"> 
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+} 
+</script>
+<hr size=8 width=90% color="black"> 
+<img src="C:\Users\Deepak\Pictures\12.jpg" Hspace="20" Vspace="0" ><img src="C:\Users\Deepak\Pictures\1.jpg"  Hspace="20" Vspace="0"><img src="C:\Users\Deepak\Pictures\vlcsnap-2016-11-28-20h23m40s6.png"  Hspace="20" > <br/>
+<img src="F:\New website project\Nx352x115-25-off-top-100.jpg.pagespeed.ic.R3rB8eUaVa.jpg" Vspace="50">
+</br></br></br>                          
+
+</body>
+</html>
